@@ -3,9 +3,12 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
+
+  const myName = `Sagar`;
+
   return (
     <View style={styles.container}>
-      <Text>Hello Sagar!</Text>
+      <Text>Hello {myName}!</Text>
       <StatusBar style="auto" />
     </View>
   );
