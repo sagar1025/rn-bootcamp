@@ -18,14 +18,14 @@ import {
 
 const App = () => {
   const isDarkMode = useColorScheme() === 'dark';
+  const myName = 'Sagar';
 
   return (
     <SafeAreaView style={styles.container}>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
       <Text
-        style={styles.welcomeText}
-      >
-        Hello WillowTree!
+        style={styles.welcomeText}>
+        Hello {myName}!
       </Text>
     </SafeAreaView>
   );
